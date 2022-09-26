@@ -1,0 +1,34 @@
+:root{
+    --bo-primary_dark: #2C3E50;
+    --bo-second-bck: #1ABC9C;
+    --bo-bck-footer_top: #3A546D;
+}
+
+.menu{
+    height: 90px;
+    background-color: var(--bo-primary_dark);
+}
+
+.jumbo{
+    height: 490px;
+    background-color: var(--bo-second-bck);
+}
+
+.col-12{
+    height: 356px;
+}
+.about{
+    height: 708px;
+    background-color: var(--bo-second-bck);
+}
+.contact{
+    height: 596px;
+}
+.footer_top{
+    height: 454px;
+    background-color: var(--bo-bck-footer_top);
+}
+.footer_bottom{
+    height: 110px;
+    background-color: var(--bo-primary_dark);
+}
