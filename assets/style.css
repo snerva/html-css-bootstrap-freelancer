@@ -76,8 +76,11 @@
     color: var(--bo-second-bck);
 }
 .footer_bottom{
-    height: 110px;
     background-color: var(--bo-primary_dark);
+}
+.footer_bottom p{
+    font-size: smaller;
+    padding-top: 16px;
 }
 /*#endregion footer*/
 
