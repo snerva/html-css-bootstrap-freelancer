@@ -4,8 +4,7 @@
     --bo-bck-footer_top: #3A546D;
 }
 
-.menu{
-    height: 90px;
+.header_top{
     background-color: var(--bo-primary_dark);
 }
 
