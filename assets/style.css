@@ -19,9 +19,16 @@
     width: 15%;
 }
 /*#endregion header*/
-.portfolio_card{
-    height: 356px;
+
+/*#region main*/
+.portfolio,
+.portfolio .fa-solid{
+    color: var(--bo-primary_dark);
 }
+.portfolio .text_line hr{
+    border-color: var(--bo-primary_dark);
+}
+
 .about{
     height: 708px;
     background-color: var(--bo-second-bck);
@@ -29,6 +36,8 @@
 .contact{
     height: 596px;
 }
+/*#endregion main*/
+
 .footer_top{
     height: 454px;
     background-color: var(--bo-bck-footer_top);
