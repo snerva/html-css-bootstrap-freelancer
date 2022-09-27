@@ -4,15 +4,21 @@
     --bo-bck-footer_top: #3A546D;
 }
 
+/*#region header*/
 .header_top{
     background-color: var(--bo-primary_dark);
 }
 
 .jumbo{
-    height: 490px;
     background-color: var(--bo-second-bck);
 }
-
+.avatar img{
+    height: 255px;
+}
+.text_line hr{
+    width: 15%;
+}
+/*#endregion header*/
 .portfolio_card{
     height: 356px;
 }
