@@ -40,8 +40,15 @@
 }
 /* about */
 
-.contact{
-    height: 596px;
+.contact,
+.contact .fa-solid{
+    color: var(--bo-primary_dark);
+}
+#floatingTextarea2{
+    height: 195px;
+}
+.contact button{
+    background-color: var(--bo-second-bck);
 }
 /*#endregion main*/
 
