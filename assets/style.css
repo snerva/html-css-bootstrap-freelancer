@@ -58,18 +58,26 @@
 }
 /*#endregion main*/
 
+/*#region footer*/
 .footer_top{
-    height: 454px;
     background-color: var(--bo-bck-footer_top);
+}
+.icon{
+    width: 52px;
+    height: 52px;
+    padding: 8px;
+    margin: 0 6px;
+}
+.icon .fa-brands{
+    vertical-align: bottom;
+}
+.footer_top a{
+    text-decoration: none;
+    color: var(--bo-second-bck);
 }
 .footer_bottom{
     height: 110px;
     background-color: var(--bo-primary_dark);
 }
+/*#endregion footer*/
 
-@media screen and (min-width:768px){
-    .container_small_md{
-        width: 70%;
-        margin: 0 auto;
-    }
-}

@@ -11,7 +11,7 @@
 <body>
     <header>
         <nav class="header_top navbar navbar-expand-md navbar-expand-lg navbar-dark">
-            <div class="container .container-md .container-xl d-flex">
+            <div class="container .container-xl .container-xxl d-flex">
                 <a class="navbar-brand text-uppercase fw-bold" href="#">START BOOTSTRAP</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -34,7 +34,7 @@
         <!--/.header top-->
 
         <section class="jumbo">
-            <div class="container .container-md .container-xl text-center py-4">
+            <div class="container .container-xl .container-xxl text-center py-4">
                 <div class="avatar">
                     <img src="./assets/img/avatar.svg" class="mx-auto mb-4" alt="">
                 </div>
@@ -56,7 +56,7 @@
     <!--/header-->
     <main>
         <section class="portfolio">
-            <div class="container .container-md .container-xl py-5 text-center">
+            <div class="container .container-xl .container-xxl py-5 text-center">
                 <h2 class="fw-bold">PORTFOLIO</h2>
                 <div class="text_line d-flex justify-content-center align-items-center">
                     <hr class="border border-2 border-dark opacity-100 rounded-pill">
@@ -111,7 +111,7 @@
         <!--/.portfolio-->
 
         <section class="about">
-            <div class="container_small container_small_md text-light text-center py-5">
+            <div class="container_small text-light text-center py-5">
                 <h2 class="fw-bold">ABOUT</h2>
                 <div class="text_line d-flex justify-content-center align-items-center">
                     <hr class="border border-2 border-white opacity-100 rounded-pill">
@@ -133,8 +133,8 @@
         </section>
         <!--/.about-->
 
-        <div class="contact">
-            <div class="container_small container_small_md  py-5">
+        <section class="contact">
+            <div class="container_small container_small_md  py-5 fw-semibold">
                 <h2 class="fw-bold text-center">CONTACT ME</h2>
                 <div class="text_line d-flex justify-content-center align-items-center">
                     <hr class="border border-2 border-dark opacity-100 rounded-pill">
@@ -161,16 +161,40 @@
                 </div> 
                 <button type="submit" class="btn text-light">Send</button> 
             </div>
-           
-        </div>
+        </section>
+        <!--/.contact-->
     </main>
+    <!--/main-->
+
     <footer>
         <div class="footer_top">
-            <div class="container .container-md .container-xl">
-                <div class="row d-flex">
-                    <div class="col p-3"></div>
-                    <div class="col p-3"></div>
-                    <div class="col p-3"></div>
+            <div class="container .container-xl .container-xxl">
+                <div class="row row row-cols-1 row-cols-md-3 row-cols-xl-3  text-center fw-semibold py-3 fw-semibold text-light">
+                    <div class="col p-3">
+                        <p class="text-uppercase">location</p>
+                        <p>2215 John Daniel Drive Clarck, MO 54243</p>
+                    </div>
+                    <div class="col p-3">
+                        <p class="text-uppercase">around the web</p>
+                        <div class="social_icons d-flex justify-content-center">
+                            <div class="icon border border-2 border-light rounded-circle">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </div>
+                            <div class="icon border border-2 border-light rounded-circle">
+                                <i class="fa-brands fa-google-plus-g"></i>
+                            </div>
+                            <div class="icon border border-2 border-light rounded-circle">
+                                <i class="fa-brands fa-twitter"></i>
+                            </div>
+                            <div class="icon border border-2 border-light rounded-circle">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col p-3">
+                        <p class="text-uppercase">about freelancer</p>
+                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="#">Start Bootstrap</a>.</p>
+                    </div>
                 </div>
             </div>
         </div>
