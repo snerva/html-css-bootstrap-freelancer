@@ -4,6 +4,11 @@
     --bo-bck-footer_top: #3A546D;
 }
 
+.container_small{
+    width: 50%;
+    margin: 0 auto;
+}
+
 /*#region header*/
 .header_top{
     background-color: var(--bo-primary_dark);
@@ -28,11 +33,13 @@
 .portfolio .text_line hr{
     border-color: var(--bo-primary_dark);
 }
+/* portfolio */
 
 .about{
-    height: 708px;
     background-color: var(--bo-second-bck);
 }
+/* about */
+
 .contact{
     height: 596px;
 }
@@ -45,4 +52,11 @@
 .footer_bottom{
     height: 110px;
     background-color: var(--bo-primary_dark);
+}
+
+@media screen and (min-width:768px){
+    .container_small_md{
+        width: 70%;
+        margin: 0 auto;
+    }
 }
